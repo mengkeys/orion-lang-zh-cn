@@ -93,7 +93,9 @@ i18n.map('zh', {
         },
         register: {
             title: '注册帐号',
-            registerButton: '快速注册',
+            registerButton:{
+                title:'快速注册'
+            },
             fields: {
                 email: '邮箱',
                 name: '帐号',
@@ -183,7 +185,31 @@ i18n.map('zh', {
         info:           "显示 _START_ 到 _END_ 条,总共 _TOTAL_ 条记录",
         infoEmpty:      "显示 0 到 0 条,总共 0 条记录",
         infoFiltered:   "(由 _MAX_ 条结果过滤)",
-        infoPostFix:    "",
+        infoPostFix:    "orion-lang-zh-cn",
+        thousands:      ",",
+        lengthMenu:     "每页显示 _MENU_ 条记录",
+        loadingRecords: "加载中...",
+        processing:     "载入中...",
+        search:         "搜索:",
+        zeroRecords:    "未匹配到记录",
+        paginate: {
+            first:      "首页",
+            last:       "尾页",
+            next:       "下一页",
+            previous:   "上一页"
+        },
+        aria: {
+            sortAscending:  ": 对此列升序排列",
+            sortDescending: ": 对此列降序排列"
+        }
+    },
+    tableDef: {
+        decimal:        "",
+        emptyTable:     "数据集为空",
+        info:           "显示 _START_ 到 _END_ 条,总共 _TOTAL_ 条记录",
+        infoEmpty:      "显示 0 到 0 条,总共 0 条记录",
+        infoFiltered:   "(由 _MAX_ 条结果过滤)",
+        infoPostFix:    " ",
         thousands:      ",",
         lengthMenu:     "每页显示 _MENU_ 条记录",
         loadingRecords: "加载中...",

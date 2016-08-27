@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mengkeys:orion-lang-zh-cn',
-  version: '1.0.1',
+  version: '1.1.0',
   summary: 'Orion简体中文语言包',
   git: 'https://github.com/mengkeys/orion-lang-zh-cn',
   documentation: 'README.md'
