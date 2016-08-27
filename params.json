@@ -1,0 +1,6 @@
+{
+  "name": "Orion-lang-zh-cn",
+  "tagline": "Orion简体中文语言包",
+  "body": "# 简体中文包说明文档\r\n\r\n这个[中文语言包](https://github.com/mengkeys/orion-lang-zh-cn)可以将[OrionCms框架](https://orionjs.org)默认的后台管理界面语言替换为简体中文，这种需求可能对于每个开发者都会不同，所以你可以将这个包Fork到自己的Github中,然后根据自己的需求进行修改、发布和使用。\r\n\r\n\r\n## 在项目中使用\r\n- 添加包依赖\r\n```\r\nmeteor add mengkeys:orion-lang-zh-cn\r\n```\r\n\r\n- 系统默认安装英文包，若不需要可以将其移除，否则需手动设置语言环境\r\n```\r\nmeteor remove orion:lang-en\r\n```\r\n- 若需要多语言设置语言\r\n```\r\ni18n.setLanguage('zh-CN');\r\n```\r\n\r\n- 设置默认语言环境\r\n```\r\ni18n.setDefaultLanguage('zh-CN');\r\n```\r\n- 验证当前语言(可在浏览器控制台进行)\r\n```\r\ni18n.getLanguage();\r\n```\r\n\r\n- 重新启动项目(项目会自动重启)\r\n```\r\nmeteor\r\n```\r\n- i9n,i18n设置方式相同，此处忽略\r\n\r\n## 相关链接\r\n[项目仓库](https://github.com/mengkeys/orion-lang-zh-cn)\r\n[项目主页](http://olzc.mengkeys.com)\r\n[提交Bug](https://github.com/mengkeys/orion-lang-zh-cn/issues)\r\n\r\n## 更多...\r\n\r\n*如需快速解决问题，可以直接给我发邮件，请标明模块名称，这样会更快哦！*\r\n\r\n<mengkeys>mengkeys@hotmail.com\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
