@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mengkeys:orion-lang-zh-cn',
-  version: '1.1.0',
+  version: '1.2.0',
   summary: 'Orion简体中文语言包',
   git: 'https://github.com/mengkeys/orion-lang-zh-cn',
   documentation: 'README.md'
@@ -15,4 +15,6 @@ Package.onUse(function(api) {
   api.imply('softwarerero:accounts-t9n');
   api.addFiles('init.js');
   api.addFiles('zh-cn.js');
+  api.addFiles('lib/datatables.js');
+  api.addFiles('lib/summernote.js');
 });

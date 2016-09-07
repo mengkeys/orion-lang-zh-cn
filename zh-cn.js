@@ -176,6 +176,9 @@ i18n.map('zh', {
         images: {
             choose: '选择多张图片',
             clickToRemove: '删除'
+        },
+        summernote: {
+
         }
     },
     // datatables setting.
