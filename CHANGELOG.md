@@ -1,3 +1,9 @@
+# 1.3.0
+repair bug: the language zh is not exist;
+
+# 1.2.0
+provide support of jQuery.datatable plugin.
+
 # 1.1.0
 support accounts tabular table translate.
 

@@ -3,7 +3,7 @@
  *
  */
 
-i18n.setDefaultLanguage('zh');
+i18n.setDefaultLanguage('zh-CN');
 i18n.showMissing('[没有 "<%= label %>" 对应的中文翻译 <%= language %>]');
 
 if (Meteor.isClient) {

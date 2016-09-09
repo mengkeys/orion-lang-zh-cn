@@ -35,7 +35,7 @@ i18n.map('zh', {
         },
         index: {
             title: '帐号管理',
-            noName: 'No Name',
+            noName: '无用户名',
             actions: {
                 edit: '编辑',
                 sendEnrollmentEmail: '发送电子邮件'
