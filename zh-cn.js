@@ -3,7 +3,7 @@
  * Translate orion to simple chinese.
  */
 
-i18n.map('zh', {
+i18n.map('zh-CN', {
     global: {
         save: '保存',
         create: '创建',
