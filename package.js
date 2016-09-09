@@ -16,5 +16,4 @@ Package.onUse(function(api) {
   api.addFiles('init.js');
   api.addFiles('zh-cn.js');
   api.addFiles('lib/datatables.js');
-  api.addFiles('lib/summernote.js');
 });
